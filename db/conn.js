@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/AnimeFoodOrder/user');
+mongoose.connect('mongodb://localhost:27017/AnimeFoodOrder');
 
 var db=mongoose.connection;
 db.on('error', console.log.bind(console, "connection error"));
